@@ -36,7 +36,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +fruit_ch
 
 # write your own comment -what does the next line do? 
 
-import snowflake.connector
+#import snowflake.connector
 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
