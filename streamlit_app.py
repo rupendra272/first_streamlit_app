@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-
+import snowflake.connector
 
 streamlit.title('My family new healthy dinner')
 
@@ -36,7 +36,7 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +fruit_ch
 
 # write your own comment -what does the next line do? 
 
-import snowflake.connector
+
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
