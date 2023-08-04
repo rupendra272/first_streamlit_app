@@ -74,10 +74,3 @@ try:
 #my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
 
 #streamlit.write('The user entered ',add_my_fruit)
-
-
-
-
-
-
-
